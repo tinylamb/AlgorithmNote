@@ -1,28 +1,5 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+#ignore all files
+*
 
-# Libraries
-*.lib
-*.a
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.exec
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-#temp file
-*.swp
-
+#but the files .c .h
+!*.[ch]
