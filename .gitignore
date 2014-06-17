@@ -16,6 +16,7 @@
 
 # Executables
 *.exe
+*.exec
 *.out
 *.app
 *.i*86
@@ -25,7 +26,3 @@
 #temp file
 *.swp
 
-#include file
-!*.c
-!*.h
-!*.gitignore
