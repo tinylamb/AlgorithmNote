@@ -1,13 +1,9 @@
-#ignore all files
-#AlgorithmNote/*
+#Ignore everything
 *
-#*.*
 
-
-
-
-#but the files .c .h
+#Don't ignore directories ,so we can recurse into them
 !*/
+
+#include what you need
 !.gitignore
-#!AlgorithmNote/*.c
 !*.[ch]
