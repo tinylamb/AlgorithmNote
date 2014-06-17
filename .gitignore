@@ -21,3 +21,11 @@
 *.i*86
 *.x86_64
 *.hex
+
+#temp file
+*.swp
+
+#include file
+!*.c
+!*.h
+!*.gitignore
