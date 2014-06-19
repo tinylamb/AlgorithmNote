@@ -1,7 +1,8 @@
 /*
  * =========================================================
  *       Filename:  insertion.c
- *    Description:  Insertion sort is a simple sorting algorithm that works the way we sort playing cards in our hands
+ *    Description:  Insertion sort is a simple sorting algorithm 
+ *                   that works the way we sort playing cards in our hands
  *
  * =========================================================
  */
