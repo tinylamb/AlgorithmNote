@@ -22,7 +22,6 @@ typedef struct heapq{ /* step 1.优先队列结构体声明 */
 /*---------------------------------------------------
  * step 2.  HeapQ 方法的声明
  *---------------------------------------------------*/
-void initialize(HeapQ* h);
 HeapQ* heapify(int arr[] , int n);
 void adjust(HeapQ* h , int p);
 void swap(int *a,int *b);
@@ -43,9 +42,6 @@ int main()
     return 0;
 }
 
-void initialize(HeapQ* h){
-    h->len = 0;
-}
 
 HeapQ* heapify(int arr[] , int n){
     HeapQ* h;
