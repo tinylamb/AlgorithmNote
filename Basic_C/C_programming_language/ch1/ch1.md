@@ -1,4 +1,4 @@
-##Types, Operators and Expressions
+###A Tutorial Introduction
 
 ###Exercise 1-1
 
