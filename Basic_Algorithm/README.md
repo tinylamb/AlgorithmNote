@@ -10,8 +10,17 @@ String
 Tree
 ---
 
-**排序数组转化为平衡二分查找树 sortedArray_to_bt.c[√]** - 给一个已排序的数组，将其转化为一颗平衡二叉树。
+**排序数组转化为平衡二分查找树 sortedArray_to_bt.c [√]** - 给一个已排序的数组，将其转化为一颗平衡二叉树。
 
 *Keywords*
 
 - 写递归函数的正确思维方法(Evernote笔记)
+
+Search
+---
+
+**寻找数组中最小的K个数 findmink.c [√]** - 给一个无序数组求其中最小的k个数
+
+*Keywords*
+
+- 基于qsort中 find pivot 函数
