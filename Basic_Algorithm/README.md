@@ -1,11 +1,11 @@
 String
 ---
 
-
 **字符串去重 stringFilter.c [√]** - 通过键盘输入一串小写字母(a~z)组成的字符串。请编写一个字符串过滤程序，若字符串中出现多个相同的字符，将非首次出现的字符过滤掉。比如字符串“abacacde”过滤结果为“abcde”。
 
 *Keywords*
-    - bitmap
+
+- [bitmap](http://www.cnblogs.com/huangxincheng/archive/2012/12/06/2804756.html)
 
 Tree
 ---
@@ -13,4 +13,5 @@ Tree
 **排序数组转化为平衡二分查找树 sortedArray_to_bt.c[√]** - 给一个已排序的数组，将其转化为一颗平衡二叉树。
 
 *Keywords*
-    - 递归与数学归纳法
+
+- 写递归函数的正确思维方法(Evernote笔记)
