@@ -1,4 +1,5 @@
 /* 
+链接 http://www.hawstein.com/posts/1.1.html
 原文：
 
 Implement an algorithm to determine if a string has all unique characters. What if you can not use additional data structures?
@@ -65,7 +66,7 @@ uint32_t bitmap(){
     string input;
     cin >> input;
     const char* pinput = input.c_str();
-    while(*pinput != '\0'){
+    while(*pinput != '\0'){ //注意这里要在{}中出现 pinput++
         uint32_t index = (*pinput) / 32;
         uint32_t off = (*pinput) % 32;
         if (BITCHECKONE(map[index], off)) //如果检查到某位上已经为1了 说明出现了重复的字符
