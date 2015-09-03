@@ -7,6 +7,11 @@ String
 
 - [bitmap](http://www.cnblogs.com/huangxincheng/archive/2012/12/06/2804756.html)
 
+**Cracking the coding interview--Q1.1 [√]** - 实现一个算法来判断一个字符串中的字符是否唯一(即没有重复).不能使用额外的数据结构。 (即只使用基本的数据结构)
+
+*keywords*
+
+- 解题时弄清楚条件,清楚程序的边界.
 Tree
 ---
 
